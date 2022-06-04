@@ -192,8 +192,6 @@ campsiteRouter
     }
   );
 
-//campsiteRouter;
-
 campsiteRouter
   .route("/:campsiteId/comments/:commentId")
   .options(cors.corsWithOptions, (req, res) => res.sendStatus(200))
